@@ -1,0 +1,24 @@
+Lesson Learned 
+
+Nama	: Afif Rana Muhammad
+NIM	: 171524001
+
+Lesson Learned
+1. Pemahaman tentang typedef
+   Pada kasus ini, saya lebih mengetahui tentang typedef yang digunakan
+   untuk memanipulasi tipe data.
+   Contoh :
+   typedef int info; 
+   /* Maka disini akan dibentuk tipe data baru bernama info yang menggunakan
+   patokan dasar dari tipe data elementer integer */
+
+2. Lebih memahami tentang penggunaan Linked List
+   Walaupun saya belum begitu mahir, akan tetapi saya sudah mulai memahami
+   teknis penggunaan metode linked list pada program
+
+3. Mengenal #define
+   Mirip dengan typedef, cuma ini hanya diapakai untuk memanipulasi syntax.
+   Contoh :
+   #define NULL nil
+
+   Maka seterusnya NULL bisa digantikan dengan penulisan nil.
