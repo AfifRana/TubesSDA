@@ -131,26 +131,6 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit9]
-FileName=..\Program Kita\CheckSet\CheckSet.c
-CompileCpp=0
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit10]
-FileName=..\Program Kita\CheckSet\CheckSet.h
-CompileCpp=0
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit11]
 FileName=Stemming\stmr.c
 CompileCpp=0
 Folder=
@@ -160,8 +140,28 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit12]
+[Unit10]
 FileName=Stemming\stmr.h
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit11]
+FileName=CheckSet\CheckSet.c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit12]
+FileName=CheckSet\CheckSet.h
 CompileCpp=0
 Folder=
 Compile=1

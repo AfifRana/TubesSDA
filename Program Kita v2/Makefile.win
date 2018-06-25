@@ -4,8 +4,8 @@
 CPP      = g++.exe -D__DEBUG__
 CC       = gcc.exe -D__DEBUG__
 WINDRES  = windres.exe
-OBJ      = main.o String/String.o Count/Count.o Tree/Tree.o "../Program\ Kita/CheckSet/CheckSet.o" Stemming/stmr.o
-LINKOBJ  = main.o String/String.o Count/Count.o Tree/Tree.o "../Program Kita/CheckSet/CheckSet.o" Stemming/stmr.o
+OBJ      = main.o String/String.o Count/Count.o Tree/Tree.o Stemming/stmr.o CheckSet/CheckSet.o
+LINKOBJ  = main.o String/String.o Count/Count.o Tree/Tree.o Stemming/stmr.o CheckSet/CheckSet.o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -pg -g3
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
@@ -36,8 +36,8 @@ Count/Count.o: Count/Count.c
 Tree/Tree.o: Tree/Tree.c
 	$(CC) -c Tree/Tree.c -o Tree/Tree.o $(CFLAGS)
 
-"../Program\ Kita/CheckSet/CheckSet.o": ../Program\ Kita/CheckSet/CheckSet.c
-	$(CC) -c "../Program Kita/CheckSet/CheckSet.c" -o "../Program Kita/CheckSet/CheckSet.o" $(CFLAGS)
-
 Stemming/stmr.o: Stemming/stmr.c
 	$(CC) -c Stemming/stmr.c -o Stemming/stmr.o $(CFLAGS)
+
+CheckSet/CheckSet.o: CheckSet/CheckSet.c
+	$(CC) -c CheckSet/CheckSet.c -o CheckSet/CheckSet.o $(CFLAGS)
